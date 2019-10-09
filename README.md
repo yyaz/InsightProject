@@ -6,7 +6,7 @@ This project aims at building a streaming data pipeline for collecting IoT (Inte
 
 Global IoT devices market is expected to grow to $ 310B and number of cellular IoT connections is expected to reach 3.5B in 2023. In a cold supply chain, tracking the temperature and humidity of the products shipped via IoT sensors in real-time have utmost importance for the supplier and the consumer. 
 
-### Technologies and Tools Used
+## Technologies and Tools Used
 
 1. Apache Spark Structured streaming
 2. Apache Kafka
@@ -15,12 +15,12 @@ Global IoT devices market is expected to grow to $ 310B and number of cellular I
 4. PostgreSQL Database
 5. Tableau
 
-#### Pipeline
+## Pipeline
 ![Pipeline](./images/streamingpipeline.png)
 
 Both the transport data (data collected from trucks) and the warehouse data are stored in S3. Then this data  is ingested by Kafka and a real time stream is created. This data is fed into Spark Structured Streaming. Faulty loads are determined and the trucks containing faulty loads are directed to the closest warehouse. The result is written into a PostgreSQL database.
 
-##### Dashboard
+## Dashboard
 
 ![Dashboard](./images/listtrucks.png)
 
