@@ -1,6 +1,6 @@
 # Introduction
 
-This project aims at building a streaming data pipeline for collecting IoT (Internet of Things)/ sensor data from fridges in the trucks in a cold supply chain and running analysis on this data. The data collected from the trucks contains customer Id, truck Id, latitude, longitude, temperature, humidity, load type of the truck and timestamp information. There is also a static data which contains information about warehouses namely warehouse Id, warehouse type, latitude and longitude. Collected data is processed in real time to determine if the trucks carry faulty load using some thresholds and if a truck has a faulty load, closest warehouse is found and the truck is directed to that warehouse so that the loads in that truck remain fresh.
+This project aims at building a streaming data pipeline for collecting IoT (Internet of Things)/ sensor data from fridges in the trucks in a cold supply chain and running analysis on this data. The data collected from the trucks contains customer Id, truck Id, latitude, longitude, temperature, humidity, load type of the truck and timestamp information. There is also a static data which contains information about warehouses namely warehouse Id, warehouse type, latitude and longitude. Collected data is processed in real time to determine if the trucks carry load which is not properly cooled using some thresholds and if a truck has such load, closest warehouse is found and the truck is directed to that warehouse so that the loads in that truck remain fresh.
 
 ## Motivation
 
