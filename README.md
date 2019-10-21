@@ -4,7 +4,7 @@ This project aims at building a streaming data pipeline for collecting IoT (Inte
 
 ## Motivation
 
-Global IoT devices market is expected to grow to $ 310B and number of cellular IoT connections is expected to reach 3.5B in 2023. In a cold supply chain, tracking the temperature and humidity of the products shipped via IoT sensors in real-time have utmost importance for the supplier and the consumer. 
+Global IoT devices market is expected to grow to $ 310B and number of cellular IoT connections is expected to reach 3.5B in 2023. Supply chain industry has the 24% share in the market. In a cold supply chain, tracking the temperature and humidity of the products shipped via IoT sensors in real-time have utmost importance for the supplier and the consumer. 
 
 ## Technologies and Tools Used
 
